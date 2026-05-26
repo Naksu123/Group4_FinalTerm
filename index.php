@@ -19,8 +19,8 @@ if (isset($_SESSION['user'])) {
 // ----------------------------------------------------------
 // CREDENTIALS  (simple variables — no database yet)
 // ----------------------------------------------------------
-$username = "admin";
-$password = "admin123";
+$username = "lemonades";
+$password = "lemonades123";
 $name     = "Lemonades Hamada";
 $user_id  = "CIT-3000";
  
@@ -105,11 +105,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <div class="credentials-hint-title"><i class="bi bi-shield-lock-fill"></i> Test Credentials</div>
                 <div class="credential-row">
                     <span class="cred-label">Username</span>
-                    <span class="cred-user">admin</span>
+                    <span class="cred-user">lemonades</span>
                 </div>
                 <div class="credential-row">
                     <span class="cred-label">Password</span>
-                    <span class="cred-pass">admin123</span>
+                    <span class="cred-pass">lemonades123</span>
                 </div>
             </div>
 

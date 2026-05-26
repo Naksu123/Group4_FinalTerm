@@ -222,7 +222,7 @@ include 'header.php';
     <template id="scheduleRowTemplate">
         <div class="schedule-input-row">
             <input type="text" name="schedules[{INDEX}][time_slot]" placeholder="Time (10:00-11:00)" required>
-            <input type="text" name="schedules[{INDEX}][days]" placeholder="Days (TTh)" required>
+            <input type="text" name="schedules[{INDEX}][days]" placeholder="Days (TTh)" pattern=".*[a-zA-Z]+.*" title="Must contain at least one letter." required>
             <select name="schedules[{INDEX}][type]" required>
                 <option value="Lecture">Lecture</option>
                 <option value="Laboratory">Laboratory</option>
@@ -251,11 +251,11 @@ include 'header.php';
                         </div>
                         <div class="form-group">
                             <label>Subject Name</label>
-                            <input type="text" id="name" name="name" placeholder="e.g. Introduction to Programming" required>
+                            <input type="text" id="name" name="name" placeholder="e.g. Introduction to Programming" pattern=".*[a-zA-Z]+.*" title="Must contain at least one letter." required>
                         </div>
                         <div class="form-group">
                             <label>Teacher</label>
-                            <input type="text" id="teacher" name="teacher" placeholder="e.g. Smith, Jane" required>
+                            <input type="text" id="teacher" name="teacher" placeholder="e.g. Smith, Jane" pattern=".*[a-zA-Z]+.*" title="Must contain at least one letter." required>
                         </div>
                         <div class="form-group">
                             <label>Units</label>

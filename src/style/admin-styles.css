@@ -914,16 +914,18 @@ h2 {
     height: 38px;
     padding: 0 12px;
     border-radius: 999px;
-    border: 1px solid rgba(99, 102, 241, 0.16);
-    background: rgba(248, 249, 250, 0.95);
+    border: 1px solid var(--border);
+    background: var(--surface2);
     color: var(--text);
     text-decoration: none;
     font-size: 13px;
-    transition: background 0.15s ease, border-color 0.15s ease;
+    transition: all 0.2s ease;
 }
 
 .page-link:hover {
-    background: rgba(99, 102, 241, 0.12);
+    background: var(--surface);
+    border-color: var(--accent);
+    color: var(--accent);
 }
 
 .page-link.current {

@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS `finalterm` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE `finalterm`;
+-- CREATE DATABASE IF NOT EXISTS `finalterm` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+-- USE `finalterm`;
 
 CREATE TABLE IF NOT EXISTS `subjects` (
   `id` int(11) NOT NULL AUTO_INCREMENT,

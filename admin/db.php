@@ -1,8 +1,10 @@
 <?php
-define('DB_HOST', 'localhost');
-define('DB_NAME', 'FinalTerm');
-define('DB_USER', 'root');
-define('DB_PASS', '');
+
+// Live InfinityFree Credentials
+define('DB_HOST', 'sql305.infinityfree.com');
+define('DB_NAME', 'if0_42023039_finalterm');
+define('DB_USER', 'if0_42023039');
+define('DB_PASS', 'Group4Term26');
 
 function getPDO()
 {
